@@ -2,6 +2,14 @@
 
 This is default data that gets imported when creating a new bar in Bar Assistant.
 
+## How to add data
+
+```
+git clone https://github.com/Kaktuzzz3000/barassistant-data.git
+docker cp .   docker-bar-assistant-1:/var/www/cocktails/resources/data
+```
+
+
 ## Data structure
 
 Data structure is defined by JSON schema.
